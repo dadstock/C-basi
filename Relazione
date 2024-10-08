@@ -4,8 +4,8 @@ to convert the code into machine language to be executed. In the attached code (
 
 1) Library: <stdio.h> (a fundamental library for C);
 2) Comments: denoted by /* * */ or simply by //, comments are not compiled, do not become part of the code, and everything written within them will not be executed;
-3 Function: int main() { } is the main function that starts the program;
-4 printf: this is the function used to print to the screen;
+3) Function: int main() { } is the main function that starts the program;
+4) printf: this is the function used to print to the screen;
 5) return 0: this indicates to the program that it should close if the function has executed correctly, preventing any memory leaks from the program still running in case of the absence of return 0;
 6) Special characters: for example, \n is used for a newline, but there are also \t, \b, \a, etc...;
 7) scanf: this function scans input from the keyboard and "inserts" it into a variable;
@@ -14,7 +14,6 @@ to convert the code into machine language to be executed. In the attached code (
 10) &: this indicates to the code that it can arbitrarily decide where in memory to place the variable;
 11) Relational operators: for example, == checks if x is equal to y, != checks if x is not equal to y, and we also have greater than >, less than <, and others;
 12) Control statements: the if-else construct is a conditional control statement used to execute a portion of code if a certain condition is met.
-
 
 ITA
 C è un linguaggio di programmazione che oggi è utilizzato principalmente per i sistemi operativi e i driver, e molto meno rispetto al passato per le applicazioni. È un linguaggio compilato, il che significa che richiede un "compilatore" per convertire il codice in linguaggio macchina affinché possa essere eseguito.
