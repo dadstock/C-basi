@@ -1,0 +1,34 @@
+ENG
+C is a programming language that today is primarily used for operating systems and drivers, and much less than in the past for applications. It is a compiled language, meaning it requires a "compiler" 
+to convert the code into machine language to be executed. In the attached code (screen0, screen1, screen2), we can distinguish:
+
+1) Library: <stdio.h> (a fundamental library for C);
+2) Comments: denoted by /* * */ or simply by //, comments are not compiled, do not become part of the code, and everything written within them will not be executed;
+3 Function: int main() { } is the main function that starts the program;
+4 printf: this is the function used to print to the screen;
+5) return 0: this indicates to the program that it should close if the function has executed correctly, preventing any memory leaks from the program still running in case of the absence of return 0;
+6) Special characters: for example, \n is used for a newline, but there are also \t, \b, \a, etc...;
+7) scanf: this function scans input from the keyboard and "inserts" it into a variable;
+8) Variables: the fundamental part of the code, which are portions of code where we can "insert" values, defining the data type first (INT, CHAR, SHORT, FLOAT, etc...);
+9) Printing variables: when printing variables, we use %d for integers, %f for FLOAT types, etc...;
+10) &: this indicates to the code that it can arbitrarily decide where in memory to place the variable;
+11) Relational operators: for example, == checks if x is equal to y, != checks if x is not equal to y, and we also have greater than >, less than <, and others;
+12) Control statements: the if-else construct is a conditional control statement used to execute a portion of code if a certain condition is met.
+
+
+ITA
+C è un linguaggio di programmazione che oggi è utilizzato principalmente per i sistemi operativi e i driver, e molto meno rispetto al passato per le applicazioni. È un linguaggio compilato, il che significa che richiede un "compilatore" per convertire il codice in linguaggio macchina affinché possa essere eseguito.
+Nei codici allegati (screen0, screen1, screen2), possiamo distinguere:
+
+1) Libreria: <stdio.h> (è una libreria basilare per C);
+2) Commenti: seguiti da /* * */ o semplicemente da //, i commenti non vengono compilati, non fanno parte del codice e tutto ciò che è scritto al loro interno non verrà eseguito;
+3) Funzione: int main() { } è la funzione principale che avvia il programma.
+4) printf: questa è la funzione utilizzata per stampare a schermo;
+5) return 0: Questo indica al programma che deve chiudersi se la funzione è stata eseguita correttamente, prevenendo eventuali perdite di memoria nel caso in cui sia assente return 0;
+6) Caratteri speciali: ad esempio, \n è utilizzato per andare a capo, ma ci sono anche \t, \b, \a, etc...;
+7) scanf: questa funzione scansiona l'input dalla tastiera;
+8) Variabili: la parte fondamentale del codice, sono porzioni di codice dove possiamo "inserire" valori, definendo prima il tipo di dato (INT, CHAR, SHORT, FLOAT, etc...);
+9) Stampa delle variabili: quando stampiamo variabili, usiamo %d per gli interi, %f per i tipi FLOAT, etc;
+10) &: indica al codice che può decidere arbitrariamente dove posizionare in memoria la variabile;
+11) Operatori di relazione: ad esempio, == verifica se x è uguale a y, != verifica se x è diverso da y, e abbiamo anche maggiore >, minore < etc...
+12) Operatori di controllo: il costrutto if-else è un'istruzione di controllo condizionale utilizzata per eseguire una porzione di codice se si verifica una determinata condizione.
